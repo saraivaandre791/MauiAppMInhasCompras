@@ -20,6 +20,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<RuntimeIdentifiers>android-arm64;android-arm</RuntimeIdentifiers>
+
 		<!-- Display name -->
 		<ApplicationTitle>MauiAppMInhasCompras</ApplicationTitle>
 
