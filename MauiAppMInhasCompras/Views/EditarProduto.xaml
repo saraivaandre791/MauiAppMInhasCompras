@@ -19,5 +19,9 @@
         <Label Text="Preço Uniatário" />
         <Entry x:Name="txt_preco" Text="{Binding Preco}" Keyboard="Numeric" />
 
+        <!-- Novo campo Categoria -->
+        <Label Text="Categoria:" />
+        <Entry x:Name="txt_categoria" Text="{Binding Categoria}" />
+
     </VerticalStackLayout>
 </ContentPage>

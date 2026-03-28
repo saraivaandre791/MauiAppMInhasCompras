@@ -43,6 +43,12 @@ namespace MauiAppMInhasCompras.Helpers
             return _conn.QueryAsync<Produto>(sql);
         }
 
-       
+        public Task<List<Produto>> SearchByCategoria(string categoria)
+        {
+            string sql = "SELECT * FROM Produto WHERE Categoria = ?";
+            return _conn.QueryAsync<Produto>(sql, categoria);
+        }
+
+
     }
 }
